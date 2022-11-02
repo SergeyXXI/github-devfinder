@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/github-devfinder/static/css/main.5234d866.css",
+    "main.css": "/github-devfinder/static/css/main.e26cbede.css",
     "main.js": "/github-devfinder/static/js/main.19e647bf.js",
     "static/media/icon-sun.svg": "/github-devfinder/static/media/icon-sun.c3177fa453380a8147df081ec10c2789.svg",
     "static/media/icon-website.svg": "/github-devfinder/static/media/icon-website.cf4904e442232792159e0e1bd2d500aa.svg",
@@ -10,11 +10,11 @@
     "static/media/icon-moon.svg": "/github-devfinder/static/media/icon-moon.f5076b814caae9443a0b8ee24682ed13.svg",
     "static/media/icon-search.svg": "/github-devfinder/static/media/icon-search.0cc0c98424cc75d5e1dfbb9e3abb6785.svg",
     "static/media/icon-location.svg": "/github-devfinder/static/media/icon-location.f6d18983ab4be8b3314d51c208fba4d4.svg",
-    "main.5234d866.css.map": "/github-devfinder/static/css/main.5234d866.css.map",
+    "main.e26cbede.css.map": "/github-devfinder/static/css/main.e26cbede.css.map",
     "main.19e647bf.js.map": "/github-devfinder/static/js/main.19e647bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.5234d866.css",
+    "static/css/main.e26cbede.css",
     "static/js/main.19e647bf.js"
   ]
 }
