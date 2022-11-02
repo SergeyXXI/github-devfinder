@@ -18,7 +18,7 @@ export default function App()
     {
         setStatus("loading");
         const url = BASE_URL + login;
-        
+
         try
         {
             const response = await fetch(url);
@@ -49,7 +49,9 @@ export default function App()
                 status === "loading" ? <p>Loading...</p> :
 
                 status === "error" ?
-                    <p className="error">Something is wrong. Please, reload page.</p> :
+                    <p className="error">
+                        Something is wrong. Please, reload page or try search.
+                    </p> :
 
                 user ? <Main { ...user } /> :
 
