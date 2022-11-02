@@ -22,10 +22,12 @@
     & > svg
     {
         width: 20px;
+        flex-shrink: 0;
         fill: var(--main-color);        
     }
     & > a
     {
+        word-break: break-word;
         text-decoration: none;
         color: inherit;   
         
