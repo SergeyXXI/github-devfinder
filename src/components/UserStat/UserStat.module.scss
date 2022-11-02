@@ -1,0 +1,28 @@
+.userStat
+{
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(3, auto);
+    gap: .8rem 1rem;
+    background: var(--user-stat-bg);
+    padding: 1rem 2rem;
+    border-radius: .8rem;  
+    margin-bottom: 2rem;    
+
+    @media(max-width: 374px)
+    {
+        grid-template: repeat(3, auto) / repeat(2, auto);
+        grid-auto-flow: column;
+        align-items: center;
+    }
+}
+.statName
+{
+    color: var(--stat-name-color);
+    font-size: .75rem;
+}
+.statValue
+{    
+    color: var(--stat-value-color);
+    font-size: 1.25rem;
+    font-weight: 700;
+}

@@ -1,0 +1,41 @@
+.profileInfo
+{
+    display: grid;
+    grid-template: repeat(2, auto) / repeat(2, auto);   
+    gap: 1rem;
+    list-style: none;    
+    padding: 0;
+
+    @media(max-width: 374px)
+    {
+        grid-template: auto / auto;
+        justify-content: center;
+    }
+}
+.item
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: .75rem;
+
+    & > svg
+    {
+        width: 20px;
+        fill: var(--main-color);        
+    }
+    & > a
+    {
+        text-decoration: none;
+        color: inherit;   
+        
+        @media(any-hover: hover)
+        {
+            &:hover
+            {
+                text-decoration: underline;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,11 @@
+.container
+{
+    max-width: 768px;
+    padding: 1.5rem;
+    margin: 0 auto;
+
+    & > p
+    {
+        text-align: center;
+    }
+}

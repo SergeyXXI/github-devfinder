@@ -1,0 +1,40 @@
+:global
+{
+    .empty
+    {
+        opacity: .75;
+    }
+}
+
+.main
+{    
+    display: flex;
+    gap: 2.3rem;
+    background: var(--ui-bg);
+    color: var(--main-color);
+    padding: 2rem;
+    border-radius: .8rem;
+    box-shadow: var(--ui-shadow);   
+
+    @media(max-width: 575px)
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    & > img
+    {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+    }
+    & > div
+    {
+        flex-grow: 1;
+    }
+    
+}
+.bio
+{    
+    margin-bottom: 2rem;
+}
