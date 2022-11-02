@@ -14,8 +14,7 @@
     @media(max-width: 575px)
     {   
         display: grid;
-        grid-template: 30px 60px / 25px auto;
-        align-items: normal;
+        grid-template: repeat(2, auto) / auto 1fr;        
         gap: 0.5rem 1rem;
     }
 
@@ -26,6 +25,7 @@
     & > div
     {
         display: flex;
+        height: 40px;
         flex-grow: 1;
         overflow: auto
     }
